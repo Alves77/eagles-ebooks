@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+body {
+    background-color: #080414;
+    color: #ffffff;
+    font-family: Montserrat, serif;
+}
+
+.logo-image{
+  width: 150px;
+  height: 80px;
+ 
+}
+
+.shadow-ul {
+  box-shadow: 0 0 5rem #000;
+}
+
+
+
+.btn-wpp {
+  background-image: linear-gradient(to right, #4CAF50 0%, #00FF00 51%, #4CAF50 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+ 
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.home-hero .mt-5,
+.home-info .mt-5 {
+  margin-top: 6.5rem !important;
+}
+
+.card {
+  background-color: transparent;
+  padding: 5rem 1rem;
+  ;
+}
+
+.home-contato .card {
+  padding: 0;
+}
+
+
+.text-grad {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+.home-contato {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+}
+
+.cont-shadow {
+  box-shadow: 0 0 50px #000;
+}
+
+.home-contato ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.home-contato ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; 
+  font-size: 3rem;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.btn-grad:hover, .btn-wpp:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.home-ebook {
+  padding: 3rem;
+}
+
+
+
+  
+
+
+
+
+ 
