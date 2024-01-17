@@ -48,6 +48,10 @@ body {
   margin-top: 6.5rem !important;
 }
 
+.mt-card {
+  margin-top: 4.9rem;
+}
+
 .card {
   background-color: transparent;
   padding: 5rem 1rem;
@@ -123,6 +127,19 @@ a {
 .home-ebook {
   padding: 3rem;
 }
+
+@media (min-width: 1200px) { 
+  .containerMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1201px) { 
+  .containerDesktop {
+    display: none;
+  }
+}
+
 
 
 
